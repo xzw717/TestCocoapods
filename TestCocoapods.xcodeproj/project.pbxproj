@@ -54,6 +54,7 @@
 		1FA24DCE24E3937D008F78FA /* TestCocoapodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCocoapodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA24DD224E3937D008F78FA /* TestCocoapodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCocoapodsUITests.m; sourceTree = "<group>"; };
 		1FA24DD424E3937D008F78FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA24DE424E399ED008F78FA /* TestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 		1FA24DAA24E3937B008F78FA /* TestCocoapods */ = {
 			isa = PBXGroup;
 			children = (
+				1FA24DE224E399ED008F78FA /* Classes */,
 				1FA24DAB24E3937B008F78FA /* AppDelegate.h */,
 				1FA24DAC24E3937B008F78FA /* AppDelegate.m */,
 				1FA24DAE24E3937B008F78FA /* SceneDelegate.h */,
@@ -135,6 +137,22 @@
 				1FA24DD424E3937D008F78FA /* Info.plist */,
 			);
 			path = TestCocoapodsUITests;
+			sourceTree = "<group>";
+		};
+		1FA24DE224E399ED008F78FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FA24DE324E399ED008F78FA /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1FA24DE324E399ED008F78FA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1FA24DE424E399ED008F78FA /* TestHeader.h */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
